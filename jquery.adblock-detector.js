@@ -28,7 +28,7 @@
                 $dummy.remove();
 
                 dfd.resolve(adsEnabled);
-            }, 100)
+            }, 100);
 
             return dfd;
         }
