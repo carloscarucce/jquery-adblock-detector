@@ -8,6 +8,7 @@
  *         //Ads are blocked
  *     }
  * });
+ * @version 1.0.2
  */
 ;(function($){
     if ($.adblockDetector) {
