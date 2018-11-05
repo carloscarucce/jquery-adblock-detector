@@ -19,7 +19,7 @@
         detect: function() {
             var dfd = new $.Deferred();
             var adsEnabled = false;
-            var $dummy = $('<div class="adsbox"></div>').appendTo('body');
+            var $dummy = $('<div class="adsbox">&nbsp;</div>').appendTo('body');
 
             setTimeout(function () {
                 if ($dummy.height() > 0) {
